@@ -1,0 +1,23 @@
+{
+  "name": "week-3-assignment-omer-sari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getir-nodejs-bootcamp/week-3-assignment-omer-sari.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getir-nodejs-bootcamp/week-3-assignment-omer-sari/issues"
+  },
+  "homepage": "https://github.com/getir-nodejs-bootcamp/week-3-assignment-omer-sari#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
