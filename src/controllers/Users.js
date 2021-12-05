@@ -11,7 +11,6 @@ const getAllUsers = (req, res) => {
 
 const getUser = (req, res) => {
     const body = req.body; //body'de id lazım.
-    console.log(body)
     const user = data.find(user => body.id == user.id);
     if (user) return res.status(200).send(user)
     else return res.status(404).send("User is not found");
@@ -53,7 +52,6 @@ const updateUser = (req, res) => {
             ...data[userIndex],
             ...req.body,
         }
-        console.log(data)
         return res.status(200).send(`${id} is updated.`)
     } else {
         res.status(404).send("User is not found")
